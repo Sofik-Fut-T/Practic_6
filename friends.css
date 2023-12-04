@@ -1,0 +1,57 @@
+table{
+   width: 100%;
+}
+.xyz{
+   text-align: right;
+}
+.my{
+   text-align: center;
+   background-color: green;
+   font-style: bold;
+}
+.tr__1{
+   background-color: gray;
+}
+table, th, tr, td{
+   border: 1.5px solid black;
+}
+h1{
+   text-align: center;
+   font-size: 22px;
+}
+.my, caption{
+   text-align: center;
+}
+.nazad{
+   font-style: italic;
+}
+.osn{
+   background-color: green;
+   color: red;
+}
+
+@media (min-width: 992px){
+   .my{
+       font-size: 130%;
+   }
+
+   .tr__1, .tr__2{
+       font-size: 120%;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+   .my{
+       font-size: 120%;
+   }
+
+   .tr__1, .tr__2{
+       font-size: 110%;
+   }
+}
+
+@media (max-width: 768px){
+   .my{
+       font-size: 110%;
+   }
+}
